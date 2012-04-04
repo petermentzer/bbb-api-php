@@ -173,7 +173,7 @@ $result = $bbb->createMeetingWithXmlResponseArray($creationParams);
 <dt>Publish Recordings</dt>
 <dd>
 <div class="method"><p>METHOD: <span class="methodname">publishRecordingsWithXmlResponseArray($recordingParams)</span></p></div>
-<p>Here</p>
+<p>This method publishes/unpublishes recordings.</p>
 <div class="example">
 <p><b>Try it out</b>: <a href="examples/publishRecordings.php">Publish recordings</a> now. (Note that you must get a valid recordID from getRecordingsWithXmlResponseArray() and enter it as the <b>$recordingParams['recordId']</b> value in <b>examples/publishRecordings.php</b> in order to get success here. The default recordID that ships in that page won't work on your server.)</p>
 <p><b>Learn more</b>: Read the source code in <b>examples/publishRecordings.php</b>.</p>
@@ -184,7 +184,7 @@ $result = $bbb->createMeetingWithXmlResponseArray($creationParams);
 <dt>Delete Recordings</dt>
 <dd>
 <div class="method"><p>METHOD: <span class="methodname">deleteRecordingsWithXmlResponseArray($recordingParams)</span></p></div>
-<p>Here</p>
+<p>This method deletes recordings.</p>
 <div class="example">
 <p><b>Try it out</b>: <a href="examples/deleteRecordings.php">Delete recordings</a> now. (Note that you must get a valid recordID from getRecordingsWithXmlResponseArray() and enter it as the <b>$recordingParams['recordId']</b> value in <b>examples/deleteRecordings.php</b> in order to get success here. The default recordID that ships in that page won't work on your server.)</p>
 <p><b>Learn more</b>: Read the source code in <b>examples/deleteRecordings.php</b>.</p>
